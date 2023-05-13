@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+}
+
+/* Estilos del contenido principal */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+/* Estilos de la sección de contacto */
+#contact {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#contact h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+#contact ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#contact li {
+  margin: 0 10px;
+}
+
+#contact li a {
+  display: block;
+  padding: 5px 10px;
+  border: 2px solid #337ab7;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#contact li a:hover {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+#contact p:last-child {
+  font-style: italic;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  margin: 0;
+}
