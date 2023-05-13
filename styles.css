@@ -22,22 +22,23 @@ li {
 
 /* Estilos del encabezado */
 header {
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos */
   background-color: #333;
-  padding: 50px;
-  text-align: center;
+  padding: 30px;
 }
 
 .logo {
   display: block;
-  width: 150px;
+  width: 100px;
   height: auto;
-  margin: 0 auto;
+  margin-right: 20px; /* Añade un margen derecho para separar el logo del título */
   border-radius: 50%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 }
 
-.logo:hover {
+header img:hover {
   transform: scale(1.1);
 }
 
