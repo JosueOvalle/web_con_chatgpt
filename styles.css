@@ -1,12 +1,14 @@
 /* Estilos generales */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  color: #333;
 }
 
 h1, h2, h3 {
   color: #333;
+  font-weight: bold;
 }
 
 ul {
@@ -21,13 +23,28 @@ li {
 /* Estilos del encabezado */
 header {
   background-color: #333;
-  padding: 20px;
+  padding: 50px;
   text-align: center;
+}
+
+.logo {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
 
 h1 {
   color: #fff;
   margin: 0;
+  font-size: 28px;
 }
 
 /* Estilos del contenido principal */
@@ -39,7 +56,8 @@ main {
 
 h2 {
   color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
 p {
@@ -50,12 +68,17 @@ p {
 a {
   color: #337ab7;
   text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #4c9cd7;
 }
 
 /* Estilos de la sección de contacto */
 #contact {
   background-color: #f5f5f5;
-  padding: 20px;
+  padding: 40px;
   margin-top: 40px;
   text-align: center;
 }
@@ -63,11 +86,13 @@ a {
 #contact h2 {
   color: #333;
   margin-bottom: 20px;
+  font-size: 28px;
 }
 
 #contact p {
   color: #666;
   margin-bottom: 15px;
+  font-size: 16px;
 }
 
 #contact ul {
@@ -81,11 +106,14 @@ a {
 }
 
 #contact li a {
-  display: block;
-  padding: 5px 10px;
+  display: inline-block;
+  padding: 10px 20px;
   border: 2px solid #337ab7;
   border-radius: 5px;
-  transition: background-color 0.3s;
+  background-color: #fff;
+  color: #337ab7;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 #contact li a:hover {
@@ -95,6 +123,7 @@ a {
 
 #contact p:last-child {
   font-style: italic;
+  font-size: 14px;
 }
 
 /* Estilos del pie de página */
@@ -107,4 +136,5 @@ footer {
 footer p {
   color: #fff;
   margin: 0;
+  font-size: 14px;
 }
